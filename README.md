@@ -7,7 +7,8 @@ Get rid of the **"This app is damaged and can't be opened"** dialog on macOS.
 
 ## What it does
 
-Drop any app onto Unflagr and remove the quarantine flag that makes macOS block it — one click and it opens normally. You can also inspect and remove any other extended attributes on files and folders.
+Drop any app onto Unflagr and remove the quarantine flag that makes macOS block it — one click and it opens normally. You can also inspect and remove any other extended attributes on files and folders. 
+This is actually the same like typing *xattr -d com.apple.quarantine appname* into the Terminal.
 
 ## Installation
 
