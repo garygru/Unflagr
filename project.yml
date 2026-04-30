@@ -1,0 +1,25 @@
+name: Unflagr
+options:
+  bundleIdPrefix: com.friendlyscientist
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "16.0"
+
+targets:
+  Unflagr:
+    type: application
+    platform: macOS
+    sources:
+      - Unflagr
+    settings:
+      base:
+        CODE_SIGN_ENTITLEMENTS: Unflagr/Unflagr.entitlements
+        CODE_SIGN_STYLE: Automatic
+        PRODUCT_BUNDLE_IDENTIFIER: com.friendlyscientist.unflagr
+        PRODUCT_NAME: Unflagr
+        SWIFT_VERSION: "5.9"
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Unflagr
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.utilities"
