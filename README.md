@@ -6,6 +6,10 @@ A macOS utility for inspecting and removing extended attributes (xattrs) from fi
 
 Drop any file or app onto Unflagr to see its extended attributes. You can remove the quarantine attribute (`com.apple.quarantine`) with one click, or strip all xattrs at once.
 
+## Installation
+
+Download the latest release from the [GitHub Releases](https://github.com/garygru/Unflagr/releases) page.
+
 ## Requirements
 
 - macOS 14 or later
@@ -20,3 +24,4 @@ brew install xcodegen
 xcodegen generate
 open Unflagr.xcodeproj
 ```
+
