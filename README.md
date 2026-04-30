@@ -1,10 +1,10 @@
 # Unflagr
 
-A macOS utility for inspecting and removing extended attributes (xattrs) from files and apps — including the quarantine flag that triggers Gatekeeper warnings.
+Get rid of the **"This app is damaged and can't be opened"** dialog on macOS.
 
 ## What it does
 
-Drop any file or app onto Unflagr to see its extended attributes. You can remove the quarantine attribute (`com.apple.quarantine`) with one click, or strip all xattrs at once.
+Drop any app onto Unflagr and remove the quarantine flag that makes macOS block it — one click and it opens normally. You can also inspect and remove any other extended attributes on files and folders.
 
 ## Installation
 
