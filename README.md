@@ -1,3 +1,6 @@
+
+<p align="center"><img src="Unflagr/Assets.xcassets/AppIcon.appiconset/slot-512-2x.png" width="128" alt="Unflagr icon"></p>
+
 # Unflagr
 
 Get rid of the **"This app is damaged and can't be opened"** dialog on macOS.
